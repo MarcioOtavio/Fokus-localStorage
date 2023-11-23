@@ -33,6 +33,8 @@ focoBt.addEventListener('click', () => {
     tempoDecorridoEmSegundos = 1500
     alterarContexto('foco')
     focoBt.classList.add('active')
+       html.setAttribute('data-contexto', 'foco')
+    banner.setAttribute('src', '/imagens/foco.png')
 })
 
 curtoBt.addEventListener('click', () => {
